@@ -95,18 +95,43 @@ h2 {
     background-color: #2c3e50;
 }
 
-/* DEBUG */
-#jumbotron, section, footer {
-    min-height: 150px;
-}
+/* FORM STYLE */
 
-[class*="col"] {
-    min-height: 50px;
-    /* border: 1.5px solid #000; */
-}
-
-.item {
+input, textarea {
     width: 100%;
-    min-height: 50px;
-    background-color: brown;
+    border: hidden;
+    border-bottom: 1px solid #999;
+    padding: 15px 0;
+    margin-bottom: 20px;
+} 
+
+::placeholder {
+    color: #2c3e50;
+    font-weight: 300;
+}
+
+.btn.btn-primary {
+    background-color: #1abc9c;
+    border: none;
+}
+
+/* LINK SOCIAL STYLE */
+a i{
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+
+.cyan {
+    color: #1abc9c;
+}
+
+#copyright{
+    padding-top: 20px;
+    text-align: center;
+    font-size: .75rem;
 }
