@@ -1,6 +1,36 @@
 header, #copyright {
-    height: 80px;
+    min-height: 80px;
     background-color: #2c3e50;
+}
+
+/* MODIFICHE NAVBAR BS COMPONENT */
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar {
+    --bs-navbar-brand-color: white;
+    --bs-navbar-toggler-border-color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler {
+    border: 1.5px solid white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: white;
+}
+
+.bg-body-tertiary {
+    background-color: #2c3e50 !important;
 }
 
 #jumbotron, #about {
@@ -16,6 +46,10 @@ footer {
     height: 200px;
     margin: 0 auto;
     background-color: #fff;
+}
+
+img {
+    width: 100%;
 }
 
 .title {
