@@ -3,6 +3,10 @@ header, #copyright {
     background-color: #2c3e50;
 }
 
+.title {
+    text-align: center;
+}
+
 /* MODIFICHE NAVBAR BS COMPONENT */
 .navbar-brand {
     color: #fff;
@@ -42,19 +46,55 @@ footer {
 }
 
 .image {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    background-color: #fff;
+    width: 50%;
+    margin: 10px auto;
 }
 
 img {
     width: 100%;
+    border-radius: 15px;
 }
 
-.title {
-    text-align: center;
+/* versione tablet */
+@media screen and (min-width:768px) {
+    .image {
+        width: 30%;
+    }    
 }
+
+/* versione desktop */
+@media screen and (min-width:992px) {
+    .image {
+        width: 20%;
+    }    
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* STYLE LINE AND STAR */
+.line {
+    display: inline-block;
+    width: 55px;
+    height: 2px;
+    margin: 25px 10px;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    background-color: #2c3e50;
+}
+
 /* DEBUG */
 #jumbotron, section, footer {
     min-height: 150px;
